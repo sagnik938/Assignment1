@@ -1,0 +1,18 @@
+sagnik@sagnik-HP-Notebook:~/Desktop/NewRepo$  cd /home/sagnik/Desktop/NewRepo ; /usr/bin/env /usr/lib/jvm/java-8-openjdk-amd64/bin/java -cp /home/sagnik/.config/Code/User/workspaceStorage/0474c69b7cc7aedc6b2e081cdb6f365d/redhat.java/jdt_ws/NewRepo_a2a4c928/bin LogicCompare 
+Enter A
+34
+Enter B
+45
+45 > 34
+sagnik@sagnik-HP-Notebook:~/Desktop/NewRepo$  cd /home/sagnik/Desktop/NewRepo ; /usr/bin/env /usr/lib/jvm/java-8-openjdk-amd64/bin/java -cp /home/sagnik/.config/Code/User/workspaceStorage/0474c69b7cc7aedc6b2e081cdb6f365d/redhat.java/jdt_ws/NewRepo_a2a4c928/bin LogicCompare 
+Enter A
+45
+Enter B
+34
+45 > 34
+sagnik@sagnik-HP-Notebook:~/Desktop/NewRepo$  cd /home/sagnik/Desktop/NewRepo ; /usr/bin/env /usr/lib/jvm/java-8-openjdk-amd64/bin/java -cp /home/sagnik/.config/Code/User/workspaceStorage/0474c69b7cc7aedc6b2e081cdb6f365d/redhat.java/jdt_ws/NewRepo_a2a4c928/bin LogicCompare 
+Enter A
+23
+Enter B
+23
+23 = 23

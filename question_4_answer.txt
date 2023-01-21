@@ -1,0 +1,35 @@
+sagnik@sagnik-HP-Notebook:~/Desktop$ mkdir NewRepo
+sagnik@sagnik-HP-Notebook:~/Desktop$ cd NewRepo
+sagnik@sagnik-HP-Notebook:~/Desktop/NewRepo$ git init
+Initialized empty Git repository in /home/sagnik/Desktop/NewRepo/.git/
+sagnik@sagnik-HP-Notebook:~/Desktop/NewRepo$ touch file1.txt
+sagnik@sagnik-HP-Notebook:~/Desktop/NewRepo$ touch file2.txt
+sagnik@sagnik-HP-Notebook:~/Desktop/NewRepo$ git ad .
+git: 'ad' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+	add
+	am
+sagnik@sagnik-HP-Notebook:~/Desktop/NewRepo$ git add .
+sagnik@sagnik-HP-Notebook:~/Desktop/NewRepo$ git commit -m "First Commit"
+[master (root-commit) 995350e] First Commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file1.txt
+ create mode 100644 file2.txt
+sagnik@sagnik-HP-Notebook:~/Desktop/NewRepo$ echo "File2 Changed">>file2.txt
+sagnik@sagnik-HP-Notebook:~/Desktop/NewRepo$ git add .
+sagnik@sagnik-HP-Notebook:~/Desktop/NewRepo$ git commit -m "Commit 2"
+[master 8b84c5b] Commit 2
+ 1 file changed, 1 insertion(+)
+sagnik@sagnik-HP-Notebook:~/Desktop/NewRepo$ git log
+commit 8b84c5b0d1b386ff53e3421a7d0a2dbf58ba83ba
+Author: Sagnik <sagnik938@gmail.com>
+Date:   Sun Jan 22 02:49:55 2023 +0530
+
+    Commit 2
+
+commit 995350eef859ecab2470b874348f85dab7e32487
+Author: Sagnik <sagnik938@gmail.com>
+Date:   Sun Jan 22 02:49:16 2023 +0530
+
+    First Commit
